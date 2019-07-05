@@ -3317,6 +3317,9 @@ td, th {
 .left-align {
   text-align: left;
 }
+.test-align{
+  text-align: justify;
+}
 
 .right-align {
   text-align: right;
@@ -4486,6 +4489,10 @@ nav .input-field label.active i {
 
 a {
   text-decoration: none;
+}
+p{
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 html {
