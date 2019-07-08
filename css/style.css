@@ -8,33 +8,19 @@
 
 nav ul a,
 nav .brand-logo {
-  text-align: center
-}
-#my-intro{
-  position: relative;
-  top:100px;
-  background-color: #5c6bc0;
-  opacity: 1;
-  color: white;
-  padding: 15px;
+  color: #444;
 }
 
-
-#my-navbar{
-    position: relative;
-    top:100px;
+p {
+  line-height: 2rem;
 }
 
-.link-color{
-    color: #5c6bc0;
-}
-
-.button-collapse {
+.sidenav-trigger {
   color: #26a69a;
 }
 
 .parallax-container {
-  min-height: 300px;
+  min-height: 380px;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
@@ -65,11 +51,10 @@ nav .brand-logo {
 .icon-block .material-icons {
   font-size: inherit;
 }
+i.icon-white {
 
+  color:white;
+}
 footer.page-footer {
   margin: 0;
-}
-
-#sidenav-overlay{
-  z-index: 100
 }
