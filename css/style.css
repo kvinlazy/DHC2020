@@ -5,7 +5,7 @@
  *
  * Made By MaterializeCSS.com
  */
- 
+
 
 
 nav ul a,
@@ -72,7 +72,7 @@ footer.page-footer {
   background-color: #ffffff;
 }
 .slider {
-  width: 900px;
+  width: auto;
   margin: 0 auto;
 }
 .slider .indicators {
