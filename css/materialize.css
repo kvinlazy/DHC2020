@@ -3050,7 +3050,7 @@ td, th {
     display: block;
     width: auto;
     position: relative;
-    overflow-x: auto;
+    overflow-y: auto;
     white-space: nowrap;
   }
   table.responsive-table tbody tr {
