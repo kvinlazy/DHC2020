@@ -3015,9 +3015,9 @@ td, th {
   border-radius: 2px;
 }
 
-@media only screen and (max-width: auto) {
+@media only screen and (max-width: 992px) {
   table.responsive-table {
-    width: auto;
+    width: 100%;
     border-collapse: collapse;
     border-spacing: 0;
     display: block;
@@ -3048,7 +3048,7 @@ td, th {
   }
   table.responsive-table tbody {
     display: block;
-    width: auto;
+    width: 100%;
     position: relative;
     overflow-y: auto;
     white-space: nowrap;
