@@ -3050,12 +3050,14 @@ td, th {
     display: block;
     width: 100%;
     position: relative;
-    overflow-y: auto;
+    overflow-x: auto;
     white-space: nowrap;
+    min-width: 80px;
   }
   table.responsive-table tbody tr {
-    display: inline-block;
+    display: block;
     vertical-align: top;
+    min-width: 80px;
   }
   table.responsive-table th {
     display: block;
