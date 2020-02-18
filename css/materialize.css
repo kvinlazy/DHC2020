@@ -3048,16 +3048,14 @@ td, th {
   }
   table.responsive-table tbody {
     display: block;
-    width: 100%;
+    width: auto;
     position: relative;
     overflow-x: auto;
     white-space: nowrap;
-    min-width: 80px;
   }
   table.responsive-table tbody tr {
-    display: block;
+    display: inline-block;
     vertical-align: top;
-    min-width: 80px;
   }
   table.responsive-table th {
     display: block;
