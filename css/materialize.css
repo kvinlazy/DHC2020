@@ -3015,7 +3015,7 @@ td, th {
   border-radius: 2px;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: auto) {
   table.responsive-table {
     width: auto;
     border-collapse: collapse;
