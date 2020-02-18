@@ -3017,7 +3017,7 @@ td, th {
 
 @media only screen and (max-width: 992px) {
   table.responsive-table {
-    width: 100%;
+    width: auto;
     border-collapse: collapse;
     border-spacing: 0;
     display: block;
