@@ -72,7 +72,7 @@
 
                     <ul id="dropdown1" class="dropdown-content">
                   <li><a href="Conference.html">Overview</a></li>
-                  <li><a href="ConferenceHistory.html">Connference History</a></li>
+                  <li><a href="ConferenceHistory.html">Conference History</a></li>
                   <li><a href="ScientificCommittee.html">Scientific Committee</a></li>
                   <li><a href="InstructionsforPapers.html">Instructions for Papers</a></li>
                   <li><a href="RegistrationInformation.html">Registration Information</a></li>
@@ -93,7 +93,7 @@
 
                    <ul id="dropdown3" class="dropdown-content">
                   <li><a href="Conference.html">Overview</a></li>
-                  <li><a href="ConferenceHistory.html">Connference History</a></li>
+                  <li><a href="ConferenceHistory.html">Conference History</a></li>
                   <li><a href="ScientificCommittee.html">Scientific Committee</a></li>
                   <li><a href="InstructionsforPapers.html">Instructions for Papers</a></li>
                   <li><a href="RegistrationInformation.html">Registration Information</a></li>
@@ -118,15 +118,23 @@
              </nav>
            
              <div class="fixed-action-btn" style="padding-left: 100px;">
-              <a class="btn-floating btn-large" style="background-color: #00b200;" data-target="dropdown5"><i class="material-icons">arrow_upward</i></a>
-              <ul>
+              <a class="btn-floating btn-large pulse" style="background-color: #00b200;"><i class="material-icons">arrow_upward</i></a>
+
+              <ul style="background-color: white; text-align: center;"><!--id="dropdown5" class="dropdown-content"-->
               <li><a href="index.html"><font color=#00b200>Main Page</font></a></li>
+              <li class="divider" tabindex="-1"></li>
               <li><a href="Travel.html"><font color=#00b200>Travel</font></a></li>
+              <li class="divider" tabindex="-1"></li>
               <li><a href="OnlineProgramme.html"><font color=#00b200>Online Programme</font></a></li>
+              <li class="divider" tabindex="-1"></li>
               <li><a href="RegistrationInformation.html"><font color=#00b200>Registration</font></a></li>
+              <li class="divider" tabindex="-1"></li>
               <li><a href="InstructionsforPapers.html"><font color=#00b200>Instructions for papers</font></a></li>
+              <li class="divider" tabindex="-1"></li>
               <li><a href="OnlineProgramme.html"><font color=#00b200>Online Programme</font></a></li>
+              <li class="divider" tabindex="-1"></li>
               <li><a href="Conference.html"><font color=#00b200>Conference</font></a></li>
+              <li class="divider" tabindex="-1"></li>
               <li><a href="Contact.html"><font color=#00b200>Contact Us</font></a></li>
             </ul>
             </div>
@@ -310,18 +318,11 @@
           alignment: 'left' // Displays dropdown with edge aligned to the left of button
           }
           );
-          $('.test').dropdown({
-          inDuration: 300,
-          outDuration: 225,
-          hover: false,
-          gutter: 0,
-           // Activate on hover
-          belowOrigin: false, // Displays dropdown below the button
-          alignment: 'left' // Displays dropdown with edge aligned to the left of button
-          }
-          );
-
+          
+          $('.modal').modal();
            $('.fixed-action-btn').floatingActionButton({
+
+
            hoverEnabled: false
            
             });
