@@ -32,7 +32,7 @@
                   <li><a href="Conference.html">Conference</a></li>
                   <li><a href="ConferenceHistory.html">Conference History</a></li>
                   <li><a href="ScientificCommittee.html">Scientific Committee</a></li>
-                  <li><a href="InstructionsforPaper.html">Instructions for Paper</a></li>
+                  <li><a href="InstructionsforPapers.html">Instructions for Papers</a></li>
                   <li><a href="RegistrationInformation.html">Registration Information</a></li>
                   <li class="active"><a href="OnlineProgramme.html">Online Programme</a></li>
                   <!--<li><a href="OpeningnKeynote.html">Opening & Keynote</a></li>
@@ -43,7 +43,7 @@
                   <li><a href="Conference.html">Conference</a></li>
                   <li><a href="ConferenceHistory.html">Conference History</a></li>
                   <li><a href="ScientificCommittee.html">Scientific Committee</a></li>
-                  <li><a href="InstructionsforPaper.html">Instructions for Paper</a></li>
+                  <li><a href="InstructionsforPapers.html">Instructions for Papers</a></li>
                   <li><a href="RegistrationInformation.html">Registration Information</a></li>
                   <li class="active"><a href="OnlineProgramme.html">Online Programme</a></li>
                 <!--  <li><a href="OpeningnKeynote.html">Opening & Keynote</a></li>
@@ -53,6 +53,24 @@
                  <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons icon-white">menu</i></a>
               </div>
              </nav>
+             <div class="fixed-action-btn" style="padding-left: 100px;">
+              <a class="btn-floating btn-large" style="background-color: #00b200;" data-target="dropdown5"><i class="material-icons">arrow_upward</i></a>
+              <ul>
+              <li><a href="index.html"><font color=#00b200>Main Page</font></a></li>
+              <li><a href="Travel.html"><font color=#00b200>Travel</font></a></li>
+              <li><a href="OnlineProgramme.html"><font color=#00b200>Online Programme</font></a></li>
+              <li><a href="RegistrationInformation.html"><font color=#00b200>Registration</font></a></li>
+              <li><a href="InstructionsforPapers.html"><font color=#00b200>Instructions for papers</font></a></li>
+              <li><a href="OnlineProgramme.html"><font color=#00b200>Online Programme</font></a></li>
+              <li><a href="Conference.html"><font color=#00b200>Conference</font></a></li>
+              <li><a href="Contact.html"><font color=#00b200>Contact Us</font></a></li>
+            </ul>
+            </div>
+            
+          
+         
+
+        
 
              <div class="container" style="padding-top: 10px;padding-bottom: 5px;">
              <div class="section" style="background-color: #F8F8F8;">
@@ -115,8 +133,8 @@
                     </tr>
                     <tr>
                     <td>11:00 - 13:00</td>
-                    <td>Parallel Sessions (1-6)
-                    <a class="waves-effect modal-trigger" href="#modal1" style='color:#92D050'><i class="tiny material-icons">call_made</i></a>
+                    <td><a class="waves-effect modal-trigger" href="#modal1" style='color:#92D050'>Parallel Sessions (1-6)
+                    <i class="tiny material-icons">call_made</i></a>
 
                     <!-- Modal Structure -->
                         <div id="modal1" class="modal .modal-close">
@@ -181,8 +199,9 @@
                     </tr>
                     <tr>
                     <td>14:00 - 16:00</td>
-                    <td>Parallel Sessions (7-12)
-                    <a class="waves-effect modal-trigger" href="#modal2" style='color:#92D050'><i class="tiny material-icons">call_made</i></a>
+                    
+                    <td><a class="waves-effect modal-trigger" href="#modal2" style='color:#92D050'>Parallel Sessions (7-12)
+                    <i class="tiny material-icons">call_made</i></a>
 
                     <!-- Modal Structure -->
                         <div id="modal2" class="modal .modal-close">
@@ -242,8 +261,8 @@
                     </tr>
                     <tr>
                     <td>16:20 - 18:20</td>
-                    <td>Parallel Sessions (13-18)
-                    <a class="waves-effect modal-trigger" href="#modal2" style='color:#92D050'><i class="tiny material-icons">call_made</i></a>
+                    <td><a class="waves-effect modal-trigger" href="#modal2" style='color:#92D050'>Parallel Sessions (13-18)
+                    <i class="tiny material-icons">call_made</i></a>
 
                     <!-- Modal Structure -->
                         <div id="modal3" class="modal .modal-close">
@@ -326,8 +345,8 @@
                       </tr>
                     <tr>
                     <td>09:00 - 11:00</td>
-                    <td>Parallel Sessions (19-24)
-                    <a class="waves-effect modal-trigger" href="#modal4" style='color:#92D050'><i class="tiny material-icons">call_made</i></a>
+                    <td><a class="waves-effect modal-trigger" href="#modal4" style='color:#92D050'>Parallel Sessions (19-24)
+                    <i class="tiny material-icons">call_made</i></a>
 
                     <!-- Modal Structure -->
                         <div id="modal4" class="modal .modal-close">
@@ -392,8 +411,8 @@
                     </tr>
                     <tr>
                     <td>11:20 - 13:30</td>
-                    <td>Parallel Sessions (25-30)
-                    <a class="waves-effect modal-trigger" href="#modal5" style='color:#92D050'><i class="tiny material-icons">call_made</i></a>
+                    <td><a class="waves-effect modal-trigger" href="#modal5" style='color:#92D050'>Parallel Sessions (25-30)
+                    <i class="tiny material-icons">call_made</i></a>
 
                     <!-- Modal Structure -->
                         <div id="modal5" class="modal .modal-close">
@@ -503,6 +522,31 @@
         $(document).ready(function() {
             // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
             $('.modal').modal();
+             $('.dropdown-button').dropdown({
+          inDuration: 300,
+          outDuration: 225,
+          hover: false,
+          gutter: 0,
+           // Activate on hover
+          belowOrigin: false, // Displays dropdown below the button
+          alignment: 'left' // Displays dropdown with edge aligned to the left of button
+          }
+          );
+          $('.test').dropdown({
+          inDuration: 300,
+          outDuration: 225,
+          hover: false,
+          gutter: 0,
+           // Activate on hover
+          belowOrigin: false, // Displays dropdown below the button
+          alignment: 'left' // Displays dropdown with edge aligned to the left of button
+          }
+          );
+
+           $('.fixed-action-btn').floatingActionButton({
+           hoverEnabled: false
+           
+            });
         });
     </script>
 
