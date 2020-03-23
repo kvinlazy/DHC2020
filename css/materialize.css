@@ -5550,10 +5550,12 @@ button.btn-floating {
   position: absolute;
   left: 0;
   top: 0;
+
   z-index: 9999;
   -webkit-transform-origin: 0 0;
           transform-origin: 0 0;
 }
+
 
 .dropdown-content:focus {
   outline: 0;
